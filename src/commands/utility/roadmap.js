@@ -1,11 +1,15 @@
-const { SlashCommandBuilder, InteractionCollector, Message } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js");
 
 
 module.exports = {
   data: new SlashCommandBuilder()
-  .setName('roadmap')
-  .setDescription('Replies with a link or message of the To-Do list for Torbek.'),
-  async execute(interaction) {
-      await interaction.reply(`Here's Torbeks project page! I'll have a link to his GitHub repository soon as well! \n https://github.com/Ouch/Torbek`)
+        .setName('roadmap')
+        .setDescription('Replies with a link or message of the To-Do list for Torbek.'),
+    async execute(interaction) {
+       interaction.reply(`Here\'s Torbeks project page! I\'ll have a link to his GitHub repository soon as well! https://github.com/Ouch/Torbek`)
     }
   }
+
+
+
+  //! Currently not replying. Must be fixed in the future.
