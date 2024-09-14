@@ -1,0 +1,19 @@
+{
+  "name": "torbek",
+  "version": "1.0.0",
+  "description": "General-purpose Discord bot for the intent of making 'The Boys' server both more accessible to those of involved and creating a greater atmosphere of convienance.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "TheBoys"
+  ],
+  "author": "Jeremy Burton",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.1"
+  }
+}
