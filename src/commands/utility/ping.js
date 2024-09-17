@@ -11,11 +11,11 @@ const { SlashCommandBuilder, InteractionCollector, Message } = require("discord.
 // }
 
 
-//? v3 Works well, plus includes bot latency information.
+//? v3 Works well, plus includes latency information.
 module.exports = {
   data: new SlashCommandBuilder()
   .setName('ping')
-  .setDescription('Replies with Pong, plus bot latency.'),
+  .setDescription('Replies with your current latency information.'),
   async execute(interaction) {
       await interaction.reply(`Your ping is ${Date.now() - interaction.createdAt}ms!`)
     }
