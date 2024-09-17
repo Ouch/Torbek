@@ -1,4 +1,4 @@
-const {Client, IntentsBitField, Collection, Events} = require("discord.js");
+const {Client, IntentsBitField, Collection, Events, ClientUser} = require("discord.js");
 const {token} = require("./config.json");
 const fs = require ('fs');
 const path = require('node:path');
@@ -13,7 +13,7 @@ const client = new Client({
   ],
 });
 
-
+console.log(`Attempting to bring Torbek online and awake....`)
 client.on('ready', (c) => {
   console.log(`✔️  ${c.user.tag} is ready but needs a cigarette 🚬` )
 })
