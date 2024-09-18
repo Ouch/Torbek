@@ -13,6 +13,7 @@ const { SlashCommandBuilder, InteractionCollector, Message } = require("discord.
 
 //? v3 Works well, plus includes latency information.
 module.exports = {
+  category: 'utility',
   data: new SlashCommandBuilder()
   .setName('ping')
   .setDescription('Replies with your current latency information.'),
