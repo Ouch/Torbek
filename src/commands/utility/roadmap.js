@@ -10,6 +10,3 @@ module.exports = {
        interaction.reply(`Here\'s Torbeks repo! https://github.com/Ouch/Torbek`)
     }
   }
-
-
-// ! edit and organize rather than leave incorrect messages
