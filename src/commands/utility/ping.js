@@ -67,7 +67,7 @@ module.exports = {
 //   },
 // }
 
-// //? v3 works great
+// //? v3 works great but lacks in pretty much anything
 // module.exports = {
 //   data: new SlashCommandBuilder()
 //   .setName('ping')
