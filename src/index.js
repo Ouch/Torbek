@@ -1,5 +1,5 @@
 const {Client, IntentsBitField, Collection, Events, ClientUser} = require("discord.js");
-const {token} = require("./config.json");
+const {token} = require("../config.json");
 const fs = require ('fs');
 const path = require('node:path');
 
