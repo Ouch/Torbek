@@ -16,16 +16,15 @@ module.exports = {
     const content = infoInput
     const UUID4 = uuidv4();
     const uv4Name = UUID4
-
+        
      await interaction.reply(`Your input was: \n \`\`\`log\n${infoInput} \`\`\` \n Attempting to create file with the following content:\n \`\`\`log\n ${infoInput} \`\`\` \n\n *UUID: ${uv4Name}*`);
         fs.writeFile(`./commands/write-file-db/${uv4Name}.txt`, content, err => {
             if (err) {
                 console.error(err) 
                 } else {
-
                 }
             }
-        );
+        )
       }
     }
 
