@@ -1,3 +1,5 @@
 config.json
 node_modules
 media
+write-file-db
+.DS_Store
